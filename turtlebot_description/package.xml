@@ -21,4 +21,11 @@
   <run_depend>xacro</run_depend>
   <run_depend>kobuki_description</run_depend>
   <run_depend>create_description</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/.." />
+
+  </export>
+
 </package>
